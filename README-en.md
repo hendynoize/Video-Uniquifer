@@ -1,8 +1,3 @@
-Berikut versi **Full English** dari README Anda 👇
-(Semua sudah diterjemahkan lengkap & ditata ulang agar profesional + tetap enak dibaca)
-
----
-
 # 🎬 Video Uniquifier Script
 
 **Make your videos unique, different & original — without harming quality.**
