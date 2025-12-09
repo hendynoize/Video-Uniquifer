@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/hendynoize/Video-Uniquifer/refs/heads/main/video-uniquifer.jpg" width="50%">
+</p>
 
 # 🎬 Video Uniquifier Script  
 **Membuat video menjadi unik, berbeda & original tanpa merusak kualitas.**  
