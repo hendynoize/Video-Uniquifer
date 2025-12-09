@@ -1,7 +1,7 @@
 
 # 🎬 Video Uniquifier Script  
-**Membuat video terlihat unik & berbeda tanpa mengubah aspek atau merusak kualitas.**  
-Script ini membantu kreator konten yang ingin meng-upload video yang sama ke beberapa platform seperti **TikTok**, **YouTube Shorts**, **Instagram Reels**, atau platform lain tanpa terkena deteksi "konten duplikat".
+**Membuat video menjadi unik, berbeda & original tanpa merusak kualitas.**  
+Script ini membantu kreator konten yang ingin meng-upload video yang sama ke beberapa platform seperti **TikTok**, **YouTube Shorts**, **Instagram Reels**, atau platform lain tanpa terkena deteksi **konten duplikat**.
 
 ---
 
@@ -11,12 +11,12 @@ Beberapa platform membatasi pengunggahan ulang video yang dianggap sama atau per
 Tujuan script ini adalah:
 
 - 🔹 Membuat video tampak **berbeda** namun tetap **natural & tidak ekstrim**.  
-- 🔹 Menerapkan perubahan ringan seperti scaling halus, crop minimal, color grading ringan, sharpening, noise halus, overlay, dan stabilitas warna.  
+- 🔹 Menerapkan perubahan ringan seperti scaling halus, crop minimal, color grading ringan, gamma, sharpening, noise halus, overlay, dan stabilitas warna.  
 - 🔹 Tetap mempertahankan **resolusi dan aspect ratio sesuai video asli**.  
 - 🔹 Memberikan proses otomatis untuk banyak file sekaligus.  
 - 🔹 Menampilkan progress bar + ETA saat memproses video.
 
-Script ini **bukan** untuk manipulasi konten atau menyalahgunakan sistem, hanya memodifikasi video agar tidak dianggap duplikat oleh platform otomatis.
+Script ini **bukan** untuk manipulasi konten atau menyalahgunakan sistem, hanya memodifikasi video agar tidak dianggap duplikat oleh platform secaraotomatis.
 
 ---
 
@@ -24,9 +24,9 @@ Script ini **bukan** untuk manipulasi konten atau menyalahgunakan sistem, hanya 
 
 ```
 
-📂 input      ← tempat meletakkan video asli (1.mp4, 2.mp4, dst)
-📂 output     ← hasil video unik
-unik.sh       ← script utama
+📂 input      ← tempat meletakkan video asli (xxx.mp4, xxx.mp4, dst)
+📂 output     ← otomatis terbuat untuk letak hasil video
+📋 Uniquifer.sh  ← script utama
 
 ````
 
@@ -79,30 +79,30 @@ brew install ffmpeg
 ### 1. Pastikan script memiliki permission:
 
 ```bash
-chmod +x unik.sh
+chmod +x Uniquifer.sh
 ```
 
-### 2. Masukkan semua video input ke folder:
+### 2. Buat folder bernama "input" dan masukkan semua video ke folder tersebut:
 
 ```
 input/
-   ├── 1.mp4
-   ├── 2.mp4
+   ├── xxx.mp4
+   ├── xxx.mp4
    └── dst...
 ```
 
 ### 3. Jalankan script:
 
 ```bash
-./unik.sh
+./Uniquifer.sh
 ```
 
-### 4. Hasil berada di folder:
+### 4. Hasil otomatis berada di folder "output":
 
 ```
 output/
-   ├── 1.mp4
-   ├── 2.mp4
+   ├── xxx.mp4
+   ├── xxx.mp4
 ```
 
 ---
@@ -117,6 +117,7 @@ output/
   * crop minimal
   * stabilitas warna
   * light sharpening
+  * sedikit modifikasi gamma
   * mild noise texture
 * 📊 Progress bar + persentase + ETA
 * 🌈 Deteksi audio opsional
